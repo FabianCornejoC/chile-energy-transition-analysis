@@ -11,8 +11,13 @@ Preguntas clave:
 ¿Qué patrones temporales existen?
 
 Posibles Features:
+
 Fecha (año, mes, hora)
+
 Tipo de tecnología
+
 Región
+
 Capacidad instalada
+
 Estacionalidad
