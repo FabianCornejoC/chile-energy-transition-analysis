@@ -10,7 +10,7 @@ Chile ha experimentado una transformación significativa en su matriz energétic
 ¿Cómo se comporta el consumo vs generación?
 ¿Qué patrones temporales existen?
 
-**Posibles Features:**
+**Features:**
 
 Fecha (año, mes, hora)
 
