@@ -48,6 +48,8 @@ Null value analysis
 Cross-layer aggregation validation comparing total hourly energy against monthly aggregates
 Total energy values match exactly between raw and analytics layers, confirming correct aggregation logic.
 
+##### The analytics layer applies controlled handling of missing values for both numerical and categorical fields.
+
 ## 7. Reproducibility
 The full ingestion, transformation, and aggregation process is implemented in SQL and can be reproduced end-to-end by executing the pipeline scripts.
 
