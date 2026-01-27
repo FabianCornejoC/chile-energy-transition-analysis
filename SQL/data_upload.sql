@@ -36,22 +36,22 @@ Total TEXT
 );
 
 COPY public.generation_hourly_staging
-FROM 'C:\Users\Kim\Desktop\Raws_energia\Raws_csv\CEN-hist_gen_de_energia_por_central_16_19.csv'
+FROM 'C:\Users\X\Raws_csv\CEN-hist_gen_de_energia_por_central_16_19.csv'
 DELIMITER ';'
 CSV HEADER;
 
 COPY public.generation_hourly_staging
-FROM 'C:\Users\Kim\Desktop\Raws_energia\Raws_csv\CEN-hist_gen_de_energia_por_central_20_22.csv'
+FROM 'C:\Users\X\Raws_csv\CEN-hist_gen_de_energia_por_central_20_22.csv'
 DELIMITER ';'
 CSV HEADER;
 
 COPY public.generation_hourly_staging
-FROM 'C:\Users\Kim\Desktop\Raws_energia\Raws_csv\CEN-hist_gen_de_energia_por_central_23.csv'
+FROM 'C:\Users\X\Raws_csv\CEN-hist_gen_de_energia_por_central_23.csv'
 DELIMITER ';'
 CSV HEADER;
 
 COPY public.generation_hourly_staging
-FROM 'C:\Users\Kim\Desktop\Raws_energia\Raws_csv\CEN-hist_gen_de_energia_por_central_24.csv'
+FROM 'C:\Users\X\Raws_csv\CEN-hist_gen_de_energia_por_central_24.csv'
 DELIMITER ';'
 CSV HEADER;
 
