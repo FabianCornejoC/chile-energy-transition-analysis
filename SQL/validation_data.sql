@@ -53,3 +53,12 @@ SELECT
 	SUM(CASE WHEN technology_type IS NULL THEN 1 ELSE 0 END) as nulls_2,
 	SUM(CASE WHEN energy_mwh IS NULL THEN 1 ELSE 0 END) as nulls_3
 FROM generation_monthly_analytics;
+
+SELECT region, COUNT(*) 
+FROM generation_monthly_analytics
+WHERE region = 'Unknown'
+GROUP BY region;
+
+SELECT COUNT(*) 
+FROM generation_monthly_analytics
+WHERE energy_generated IS NULL;
