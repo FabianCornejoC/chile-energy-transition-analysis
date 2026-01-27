@@ -33,5 +33,10 @@ All consumption values are converted to GWh.
 - Missing hours are treated as zero only if explicitly documented.
 - Missing days are reported as missing data.
 
+ #### Handling Missing Categorical Values
+
+Records with missing or empty categorical attributes (region or technology) were retained.
+Missing values were explicitly labeled as 'Unknown' in the analytics layer to preserve total energy generation.
+
 ## Traceability
 All transformed tables maintain a clear lineage to the original raw datasets.
